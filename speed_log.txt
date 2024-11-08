@@ -1,0 +1,13 @@
+ObjectID, ObjectClass, Average Speed (m/h)
+3, car, 17.02
+5, car, 54.94
+7, car, 6.97
+9, car, 28.85
+14, car, 31.28
+12, car, 2.50
+16, car, 5.00
+2, truck, 2.40
+17, car, 3.94
+19, car, 20.45
+20, car, 1.94
+21, car, 2.53
