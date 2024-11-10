@@ -1,5 +1,6 @@
 import numpy as np
-from sklearn.metrics import precision_recall_fscore_support, precision_score, recall_score, f1_score
+from sklearn.metrics import precision_recall_fscore_support, precision_score, recall_score, f1_score, confusion_matrix, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
 
 # Example: {object_id: ground_truth_speed (m/h)}
 # Initialize a dictionary to store ground truth speeds
