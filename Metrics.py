@@ -95,3 +95,12 @@ for i, class_name in enumerate(classes):
     print(f"  Recall: {recall[i]:.2f}")
     print(f"  F1 Score: {f1[i]:.2f}")
     print()
+
+
+conf_matrix = confusion_matrix(y_true, y_pred, labels=["car", "truck"])
+
+# Display confusion matrix
+disp = ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=["car", "truck"])
+disp.plot(cmap=plt.cm.Blues)
+plt.title("Confusion Matrix for Object Detection Classes")
+plt.show()
