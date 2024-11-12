@@ -9,7 +9,7 @@ from collections import defaultdict
 model = YOLO("yolov10n.pt")
 
 # Initialize global variable to store cursor coordinates
-line_pts = [(0, 200), (1019, 200)] # line placement
+line_pts = [(0, 298), (1019, 298)] # line placement
 names = model.model.names  # Dictionary of class names
 
 # Initialize SpeedEstimator with the line points and model names
