@@ -27,7 +27,7 @@ cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
 
 # Open the video file or webcam feed
-cap = cv2.VideoCapture('Test_Video.mp4')
+cap = cv2.VideoCapture('Testing_Video.mp4')
 
 count = 0
 # Dictionary to store logged object speeds (to avoid duplicate logging)
